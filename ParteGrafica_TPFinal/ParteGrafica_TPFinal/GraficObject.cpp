@@ -12,17 +12,21 @@ Obj_Graf::Obj_Graf(double ID)
 }
 
 
+void Obj_Graf::draw() {
+
+
+ }
 
 
 
-//void Obj_Graf::startDraw(Direction dir, STATE state, POINT pos)
-//{
+void Obj_Graf::startDraw(Direction dir, void* state, POINT pos)
+{
 //	this->active = true;
 //	this->dir = dir;
 //	this->pos = pos;
 //    this->state = state;
 //	this->actualImage = 0;			// comienza con la primera imagen
-//}
+}
 
 
 Obj_Graf::~Obj_Graf()

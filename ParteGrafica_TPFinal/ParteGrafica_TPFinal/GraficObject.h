@@ -31,9 +31,9 @@ public:
 	Obj_Graf();
 	~Obj_Graf();
 	Obj_Graf(double ID);
-	virtual void startDraw(Direction dir, void *estado, POINT pos) = 0;			// a startDraw lo llama el modelo del juego y le marca donde iniciar la secuencia de dibujo y en que dirección y estado
+	virtual void startDraw(Direction dir, void *estado, POINT pos) ;			// a startDraw lo llama el modelo del juego y le marca donde iniciar la secuencia de dibujo y en que dirección y estado
 //	virtual void loadBitmap() = 0;												// cuando se llama el creador de objetos se cargan las imagenes
-	virtual void draw() = 0;
+	virtual void draw() ;
 	void setID(double ID);											// setea el ID
 	void setPos(POINT);
 	void setPos(double x, double y);								// coordenadas del objeto en el mapa

@@ -181,3 +181,6 @@ void Obj_Graf_Projectile::startDraw(Direction dir, void *state, POINT pos)
 	this->state = *(PROYECTILE_STATE *)state;
 	this->actualImage = 0;			// comienza con la primera imagen
 }
+
+void Obj_Graf_Projectile::loadBitmap(PROYECTILE_TYPE type) {									// dependiendo del enemigo se le cargan determinadas imagenes
+}
